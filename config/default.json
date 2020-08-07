@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://Nave18:7w8SntQorPDB66J1@devsocialnetwork.9klrg.mongodb.net/DevSocialNetwork?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Nave18:7w8SntQorPDB66J1@devsocialnetwork.9klrg.mongodb.net/DevSocialNetwork?retryWrites=true&w=majority",
+    "jwtSecret": "thesecretoftheseven"
 }
