@@ -16,21 +16,23 @@ const postSchema = new mongoose.Schema({
     avatar: {
         type: String,
     },
-    likes: [{
-        user: {
-            type: mongoose.Schema.Types.ObjectId;
-            ref: "user"
-        }
-    }],
+    likes: [
+        {
+            user: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "user",
+            },
+        },
+    ],
     comments: [
         {
             user: {
-                type: mongoose.Schema.Types.ObjectId;
-                ref: "user"
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "user",
             },
             text: {
-                type:String,
-                required: true
+                type: String,
+                required: true,
             },
             name: {
                 type: String,
@@ -42,9 +44,9 @@ const postSchema = new mongoose.Schema({
                 type: Date,
                 default: Date.now,
             },
-        }
+        },
     ],
-  
+
     date: {
         type: Date,
         default: Date.now,

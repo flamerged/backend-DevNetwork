@@ -88,7 +88,7 @@ router.post(
         if (linkedin) profileFields.social.linkedin = linkedin;
 
         try {
-            let profile = await Profile.findOne({ user: req.user.id });
+            const profile = await Profile.findOne({ user: req.user.id });
 
             if (profile) {
                 //update profile
