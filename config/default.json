@@ -1,6 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://Nave18:7w8SntQorPDB66J1@devsocialnetwork.9klrg.mongodb.net/DevSocialNetwork?retryWrites=true&w=majority",
-    "jwtSecret": "thesecretoftheseven",
-    "githubClientId": "47829346f5f50d229c04",
-    "githubSecret": "c64648178a691e8afdeeafe45110f9fe326d562e"
-}
